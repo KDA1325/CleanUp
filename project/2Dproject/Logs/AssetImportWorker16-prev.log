@@ -1,0 +1,1675 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.24f1 (709dddfb713f) revision 7380445'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16252 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+D:/projects/2Dproject/project/2Dproject
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+6962
+Successfully changed project path to: D:/projects/2Dproject/project/2Dproject
+D:/projects/2Dproject/project/2Dproject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 307.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.24f1 (709dddfb713f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/projects/2Dproject/project/2Dproject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014534 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 283.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1312ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (955ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+				TypeCache.Initialize (204ms)
+					TypeCache.ScanAssembly (203ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (607ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (14ms)
+				RefreshPlugins (283ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 218.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1633ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1318ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+				TypeCache.Initialize (308ms)
+					TypeCache.ScanAssembly (302ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (718ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (218ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2515 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (58.2 KB). Loaded Objects now: 2980.
+Memory consumption went from 430.4 MB to 430.3 MB.
+Total: 3.230100 ms (FindLiveObjects: 0.230900 ms CreateObjectMapping: 0.158200 ms MarkObjects: 2.765000 ms  DeleteObjects: 0.075100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1750ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1347ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+				TypeCache.Initialize (386ms)
+					TypeCache.ScanAssembly (380ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (592ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2504 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (32.5 KB). Loaded Objects now: 2983.
+Memory consumption went from 428.4 MB to 428.4 MB.
+Total: 14.291800 ms (FindLiveObjects: 0.583300 ms CreateObjectMapping: 2.433700 ms MarkObjects: 11.227300 ms  DeleteObjects: 0.046100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 334048.849189 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_136.asset
+  artifactKey: Guid(10ff8c8f9c53c3b44b1ef93f704e60a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_136.asset using Guid(10ff8c8f9c53c3b44b1ef93f704e60a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021f73bf83cc44e0a66af19e5c491da6') in 0.146783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_153.asset
+  artifactKey: Guid(4920b8ef6b288b14a801c389e4832264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_153.asset using Guid(4920b8ef6b288b14a801c389e4832264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0377ecef831fe3c485044c8cf3630b95') in 0.019661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_165.asset
+  artifactKey: Guid(e52e7396ffddad54f9c5ca262ea42a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_165.asset using Guid(e52e7396ffddad54f9c5ca262ea42a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef721c9773c077489526b87700f2a6eb') in 0.022556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_137.asset
+  artifactKey: Guid(ecc385c73c2253e4ea750bd47a754e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_137.asset using Guid(ecc385c73c2253e4ea750bd47a754e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10df599f9759a990aad1c0ab9cbcb7c6') in 0.015236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_141.asset
+  artifactKey: Guid(a8da4bda628b9064b851de712cf231ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_141.asset using Guid(a8da4bda628b9064b851de712cf231ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17e0e354b15744810ef8b1453eb79ed') in 0.028325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_147.asset
+  artifactKey: Guid(a474897d4bcf9c84dbb417b201516b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_147.asset using Guid(a474897d4bcf9c84dbb417b201516b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bcc67b8eb8826b37ac7a7b8885add8') in 0.049073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_160.asset
+  artifactKey: Guid(0b77d6a3a85829d4f8c9f4aba3615207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_160.asset using Guid(0b77d6a3a85829d4f8c9f4aba3615207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d3c62818cfdb3784aa63d8aca6379d') in 0.026280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_142.asset
+  artifactKey: Guid(5ad2179da4d35d84bba080030d308a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_142.asset using Guid(5ad2179da4d35d84bba080030d308a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9985674a3dd8b1bc3ad645c913b43a3e') in 0.042988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_152.asset
+  artifactKey: Guid(cd70fe5086e5c2c4f8d2de349ac9e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_152.asset using Guid(cd70fe5086e5c2c4f8d2de349ac9e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48318640e628b8acb87d8bea6c8a7d6f') in 0.024610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_145.asset
+  artifactKey: Guid(ba129aa7068adac4ab286cc58d0dc5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_145.asset using Guid(ba129aa7068adac4ab286cc58d0dc5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d5c1275dd1ab9a78e1751c1481e19d') in 0.023153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_161.asset
+  artifactKey: Guid(188576f291ae5ad4eb34cf7013be4154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_161.asset using Guid(188576f291ae5ad4eb34cf7013be4154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d2543b66a5b49b2a87cdf0c622a5c0') in 0.027898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_146.asset
+  artifactKey: Guid(ca3bb4c7f7660a74a82583fb5ac1b743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Village - Rogue Adventure/Tiles/RA_Village_146.asset using Guid(ca3bb4c7f7660a74a82583fb5ac1b743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83112687ba7f5a2d95936ac38cb4f591') in 0.033545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.319171 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_2.asset
+  artifactKey: Guid(394a7bdd9a33ef44b9944e662e7ba466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_2.asset using Guid(394a7bdd9a33ef44b9944e662e7ba466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27adcbd7d0039e00f6c48617d547c71c') in 0.050392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_80.asset
+  artifactKey: Guid(8656d68b5a6a5524c8860d10f09ab53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_80.asset using Guid(8656d68b5a6a5524c8860d10f09ab53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e26041b25f1ae31271db3f7cf1f340') in 0.020733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003250 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_118.asset
+  artifactKey: Guid(56420739d7e7f6441bda90c2e0ee1d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_118.asset using Guid(56420739d7e7f6441bda90c2e0ee1d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601660e580d7d5c5031f88918734b7af') in 0.016933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_119.asset
+  artifactKey: Guid(a2ee518fed7f7f54ca491c6a3fb747d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_119.asset using Guid(a2ee518fed7f7f54ca491c6a3fb747d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08eb2d2ac4c10ac807a7d40b393862e4') in 0.024581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_126.asset
+  artifactKey: Guid(f70c062bd50e27c46913d76b2a01b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_126.asset using Guid(f70c062bd50e27c46913d76b2a01b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9fbc0a56e10980c32c4626c3213845') in 0.021325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_56.asset
+  artifactKey: Guid(08465207135cc204b8be083d60efd725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_56.asset using Guid(08465207135cc204b8be083d60efd725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0598a187a875e7dec6b66aeae7c9b871') in 0.026501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_46.asset
+  artifactKey: Guid(6f238af6d2e804147aa49972c21c5c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_46.asset using Guid(6f238af6d2e804147aa49972c21c5c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e6fdcedbaebd98194f32f9114393ac') in 0.026551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_83.asset
+  artifactKey: Guid(6c4d0c87297208b47982ec194847c0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_83.asset using Guid(6c4d0c87297208b47982ec194847c0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036de7165b841a3d8cdad674c8b2c36b') in 0.022385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_74.asset
+  artifactKey: Guid(1e09c491702a27744a79d3105f995bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_74.asset using Guid(1e09c491702a27744a79d3105f995bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2f5335b913c2efed87728c1469b175') in 0.022348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_67.asset
+  artifactKey: Guid(879cb052d9cb87a4d9fd0354b048dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_67.asset using Guid(879cb052d9cb87a4d9fd0354b048dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c16a6da69bc4f75df9e21ee9b5b40f') in 0.025028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_128.asset
+  artifactKey: Guid(7a6aa19dcfcc2d542b5e55d72894b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_128.asset using Guid(7a6aa19dcfcc2d542b5e55d72894b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb27f45db23203e5701f748f5ca5ede') in 0.021086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_54.asset
+  artifactKey: Guid(b7c9b5751e6fa4c40badbfffc8c4188f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_54.asset using Guid(b7c9b5751e6fa4c40badbfffc8c4188f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3679db5e2c4f9f721f6c6bf9dc94a258') in 0.027978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_101.asset
+  artifactKey: Guid(1fd8bc40aa66fe141875d3ab1ade81f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_101.asset using Guid(1fd8bc40aa66fe141875d3ab1ade81f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30801d0a2fbf79f1c34810b071d743b9') in 0.023540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_40.asset
+  artifactKey: Guid(bc93c58bd766d3943a2ed7c97dc0c29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_40.asset using Guid(bc93c58bd766d3943a2ed7c97dc0c29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56df20ea37eca228d6499e03a699b6a') in 0.018732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_79.asset
+  artifactKey: Guid(3fe0159569575254c8c7e15920894163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_79.asset using Guid(3fe0159569575254c8c7e15920894163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfed126966cd2ec0339860a69f203d41') in 0.022826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_104.asset
+  artifactKey: Guid(ddacfedd702e7fe4f8f87c60fd114345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_104.asset using Guid(ddacfedd702e7fe4f8f87c60fd114345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efb7a221e83a1a35eacb2f0907e946d') in 0.027297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_12.asset
+  artifactKey: Guid(3a0748608ebd17d4a9bad443c902e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_12.asset using Guid(3a0748608ebd17d4a9bad443c902e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aaf9d8f41b451271465ba3914631ec8') in 0.023432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_130.asset
+  artifactKey: Guid(738d01364dff85345944922c8d3166ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_130.asset using Guid(738d01364dff85345944922c8d3166ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2640fecea67448f8d01e20c25fa5bf0e') in 0.029779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_103.asset
+  artifactKey: Guid(2a19e014ba9003e46bdc2faae396f75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_103.asset using Guid(2a19e014ba9003e46bdc2faae396f75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827bc9493516be2272b66d0ed8fe6aae') in 0.023234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_99.asset
+  artifactKey: Guid(6e319fb4d51b8e14d8097d2401afe7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_99.asset using Guid(6e319fb4d51b8e14d8097d2401afe7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da672164ae78eea80e8e30bac193ca9b') in 0.019565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_88.asset
+  artifactKey: Guid(d383a79582084e24b942fb082e779de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_88.asset using Guid(d383a79582084e24b942fb082e779de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bdafc6d0b74d72066b5741f3d99e17') in 0.022388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_41.asset
+  artifactKey: Guid(76c43ffd76593a94b9b68d387c54f19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_41.asset using Guid(76c43ffd76593a94b9b68d387c54f19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9481b4053a5d188676da9ac47c6e2e93') in 0.020482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_23.asset
+  artifactKey: Guid(41080ca7f5c4c5c41b8ff221d234538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_23.asset using Guid(41080ca7f5c4c5c41b8ff221d234538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4142f08f39f1da9a82dbf7bd4cad8775') in 0.019656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_37.asset
+  artifactKey: Guid(2181f17772fa1fb4a8237e1389b12ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_37.asset using Guid(2181f17772fa1fb4a8237e1389b12ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8468f9d31dd4e8bac96e892bf0f282d1') in 0.019412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_77.asset
+  artifactKey: Guid(1fb3213867109dd4ea65aaae9a2c6267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_77.asset using Guid(1fb3213867109dd4ea65aaae9a2c6267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c683524c7d2fbd84417497fc28444df') in 0.056771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_95.asset
+  artifactKey: Guid(e1acfe5be9a1b7345bc3e0ad2354cc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_95.asset using Guid(e1acfe5be9a1b7345bc3e0ad2354cc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae27f2566a654ded31365ce0949cd81') in 0.021136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_61.asset
+  artifactKey: Guid(00756fc70126fa24698470ccbb7685be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_61.asset using Guid(00756fc70126fa24698470ccbb7685be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3be2811a292b8dbefbb11e27b8dcda3') in 0.026809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_113.asset
+  artifactKey: Guid(52560fb04ee1c8a46b6479ffa36ddd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_113.asset using Guid(52560fb04ee1c8a46b6479ffa36ddd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4decdda69a77a4d778b396fd30e3e15') in 0.030891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_17.asset
+  artifactKey: Guid(ee566d60647675245a9c6da11aa1ae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_17.asset using Guid(ee566d60647675245a9c6da11aa1ae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ec5fbf1c2f0513a9cc0c5337418079') in 0.021423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_116.asset
+  artifactKey: Guid(e9cfc2751b0613546b39519f6bef5f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_116.asset using Guid(e9cfc2751b0613546b39519f6bef5f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e3821a542e859585f345dc78edb15b') in 0.023804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_102.asset
+  artifactKey: Guid(7852f33bf9d525d4cbb1639466f702a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_102.asset using Guid(7852f33bf9d525d4cbb1639466f702a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0248b8b2eedc24f04ebb5bb5f8a625c0') in 0.025776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_78.asset
+  artifactKey: Guid(556361ac38416b74fb09991e84d6430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_78.asset using Guid(556361ac38416b74fb09991e84d6430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4197211b98811ea1f00bca713ac24ab6') in 0.021737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_60.asset
+  artifactKey: Guid(e32961dce7322a649abbfb79c269dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_60.asset using Guid(e32961dce7322a649abbfb79c269dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd4f884238d6cd6d89feb48c4134f75') in 0.022516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_131.asset
+  artifactKey: Guid(54323f39fcd8773488536712d7929185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_131.asset using Guid(54323f39fcd8773488536712d7929185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd1e0f37c3c336cc4d34564feec80dd') in 0.019636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_55.asset
+  artifactKey: Guid(aafb55bbed29eeb48b5b59d2ad3966aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_55.asset using Guid(aafb55bbed29eeb48b5b59d2ad3966aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81b336d4ed58b7ebfbadb981a0fd7ca') in 0.019691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_66.asset
+  artifactKey: Guid(520720659a935d44692f8f89bed8a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_66.asset using Guid(520720659a935d44692f8f89bed8a8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189c22cb42add62f43b9c42270d239a2') in 0.025280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_34.asset
+  artifactKey: Guid(e334a98a02a3bd447af51d6708498bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_34.asset using Guid(e334a98a02a3bd447af51d6708498bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b1b19b33ba6d109d1b194d7f043349') in 0.023878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_11.asset
+  artifactKey: Guid(cc6467c9f4b6c4a4fbf47c02ce2d64b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_11.asset using Guid(cc6467c9f4b6c4a4fbf47c02ce2d64b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bc45717843e228da4324f8f42e28e6') in 0.042791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_51.asset
+  artifactKey: Guid(24f5f035dcf337249bd1008acfb37c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_51.asset using Guid(24f5f035dcf337249bd1008acfb37c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdeca6fb08b8a873859425d3cac40962') in 0.037320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_36.asset
+  artifactKey: Guid(b2a7135ef5e179149ac66d56aaff6f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_36.asset using Guid(b2a7135ef5e179149ac66d56aaff6f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fc6ce10b767cdbd086197d29bf4206') in 0.017593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_42.asset
+  artifactKey: Guid(046ea2585330386409f558b30fb8e8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_42.asset using Guid(046ea2585330386409f558b30fb8e8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166330ffbf5d2ffcca7df3182d280a29') in 0.022151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_69.asset
+  artifactKey: Guid(122b3341da8e4894fac6a00b9ca31b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_69.asset using Guid(122b3341da8e4894fac6a00b9ca31b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815e28aa1127f4c9b4f8dcad96107eaa') in 0.030302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_114.asset
+  artifactKey: Guid(f5b6277d44321574c80c1d0f94bf0a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_114.asset using Guid(f5b6277d44321574c80c1d0f94bf0a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911bbacbe232a8bf45efe95eef5b6021') in 0.018999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_71.asset
+  artifactKey: Guid(8b8c00870af13ba4696e10a6657aad4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_71.asset using Guid(8b8c00870af13ba4696e10a6657aad4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838075f0f247832225f0de9a43c9f11d') in 0.022483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_50.asset
+  artifactKey: Guid(fd247ae7e527f394dad12583abd66508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_50.asset using Guid(fd247ae7e527f394dad12583abd66508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6afcdb082415b1bea1a34a3d9284ce2') in 0.029981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.836016 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_136.asset
+  artifactKey: Guid(28b3715956ea4b1459493e16044a9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_136.asset using Guid(28b3715956ea4b1459493e16044a9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349f702b096d9dd2fb9f55677d28b316') in 0.043067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_162.asset
+  artifactKey: Guid(ee7b5c8b250b3c2458748e1903cb78c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_162.asset using Guid(ee7b5c8b250b3c2458748e1903cb78c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a2aba30ddcce8a5558a199d518aaec') in 0.024279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_145.asset
+  artifactKey: Guid(f90618b2e3d591c4fb36569f79df0ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_145.asset using Guid(f90618b2e3d591c4fb36569f79df0ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b270f5772c948ca1aa0f4576b4c8047') in 0.018616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_149.asset
+  artifactKey: Guid(ac5b7464ae42914449ba0c8cf0276914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_149.asset using Guid(ac5b7464ae42914449ba0c8cf0276914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dcdcc5e3dc1199b58893bea2762e6d') in 0.024319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_152.asset
+  artifactKey: Guid(423da98967515de4d8ad6ee399c97209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_152.asset using Guid(423da98967515de4d8ad6ee399c97209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd487c025303b126813efda624218efc7') in 0.052613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_184.asset
+  artifactKey: Guid(831607f1051ea934eb3dadb4cfd6bb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_184.asset using Guid(831607f1051ea934eb3dadb4cfd6bb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975825ae966ad62e90c76276249bec34') in 0.036446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_169.asset
+  artifactKey: Guid(b2200d80e3c8a6640859fe8d0d4edf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_169.asset using Guid(b2200d80e3c8a6640859fe8d0d4edf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8aae9c92094d76f78c2c67e729a427f') in 0.030504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_172.asset
+  artifactKey: Guid(2ce3a00f51ba9a14ea39ce4f8e9b627e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_172.asset using Guid(2ce3a00f51ba9a14ea39ce4f8e9b627e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57db26d6097c479529165e9373d94860') in 0.026214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_148.asset
+  artifactKey: Guid(f66b14e93a0ae2444b36b8a20b8817a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_148.asset using Guid(f66b14e93a0ae2444b36b8a20b8817a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb3df4ecb442f7fa029e3e779407e51') in 0.021493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_137.asset
+  artifactKey: Guid(237075058263e0a4882912a4819eb438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_137.asset using Guid(237075058263e0a4882912a4819eb438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634ce3f9704fd8dba13974dfb90896df') in 0.030725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_163.asset
+  artifactKey: Guid(a6ddc6ad6271f01438e9bc9ab0104a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_163.asset using Guid(a6ddc6ad6271f01438e9bc9ab0104a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a678a7f8ce4dca071b9a836b6273df88') in 0.023586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_190.asset
+  artifactKey: Guid(d83260df12356304e98514a50f43977f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_190.asset using Guid(d83260df12356304e98514a50f43977f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ede91d76fb4cbfcf2113502475de76') in 0.021723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_143.asset
+  artifactKey: Guid(4a88d541aa5ab4e438085721ebf03757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_143.asset using Guid(4a88d541aa5ab4e438085721ebf03757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f169a88099585acf8223dd9b01de4b') in 0.022231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_154.asset
+  artifactKey: Guid(4d6929217deabe048b909d87d25d5b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_154.asset using Guid(4d6929217deabe048b909d87d25d5b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2382b59e97cfb05bc9efe67c51dba703') in 0.024511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_142.asset
+  artifactKey: Guid(c279813729a6b7d45a21a60ce0c6dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_142.asset using Guid(c279813729a6b7d45a21a60ce0c6dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd751fe256860c1b8397003e4d354a51e') in 0.028594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_151.asset
+  artifactKey: Guid(784e3eeeaaf22b0439c27480cf01fc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_151.asset using Guid(784e3eeeaaf22b0439c27480cf01fc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82624aca7927cdf29b6e33a4929f3f8b') in 0.021362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_167.asset
+  artifactKey: Guid(56791765306521948b24a5d163963445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_167.asset using Guid(56791765306521948b24a5d163963445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2386418d09831ed10720a8d0e6267b') in 0.016686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_147.asset
+  artifactKey: Guid(fd83827b121bbd1459586a27d239cf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_147.asset using Guid(fd83827b121bbd1459586a27d239cf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508caeaa51f2b7ad3bfbe74fc4027537') in 0.024020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_179.asset
+  artifactKey: Guid(c643b97f7ba014f498192f5929e3dad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_179.asset using Guid(c643b97f7ba014f498192f5929e3dad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ec84148a8c4cb23c7d1ba8efad921a') in 0.022693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_183.asset
+  artifactKey: Guid(8ab9cf290b0a2ab41b633e626c974254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_183.asset using Guid(8ab9cf290b0a2ab41b633e626c974254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73a067635ed3421e42ae1cc1bc66608') in 0.017922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041058 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_193.asset
+  artifactKey: Guid(2d5ae0e534a10ae438fc23e4f3cff689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_193.asset using Guid(2d5ae0e534a10ae438fc23e4f3cff689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0b0493c7d00d462267eb59ee22e6c5') in 0.023295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_202.asset
+  artifactKey: Guid(7136c340662f80f4c8833c0f88586fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_202.asset using Guid(7136c340662f80f4c8833c0f88586fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115e7fa79c03cbfd768500b50715be24') in 0.025314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_228.asset
+  artifactKey: Guid(16c6e790bd1ee1f409294755c07d624d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_228.asset using Guid(16c6e790bd1ee1f409294755c07d624d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eee7a90e4dfa9b2faa72ddbc09e315b') in 0.026097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_215.asset
+  artifactKey: Guid(d8fabbdeec943b54495a19bdbb870d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_215.asset using Guid(d8fabbdeec943b54495a19bdbb870d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6886a69cf6c426c7e8e59d76435c5a3') in 0.023834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_234.asset
+  artifactKey: Guid(cdc04e89dab119a41818794fcd837713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_234.asset using Guid(cdc04e89dab119a41818794fcd837713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852b8db9cd8a9c31345d16295dc5e529') in 0.020678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_233.asset
+  artifactKey: Guid(6dc6c406353ae90428ce102d2acd689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_233.asset using Guid(6dc6c406353ae90428ce102d2acd689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea7cbd6371d69ab3b77bb5889b8b8d3') in 0.022491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_206.asset
+  artifactKey: Guid(93b9b08a7f4dba941bbcab235d7e057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_206.asset using Guid(93b9b08a7f4dba941bbcab235d7e057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf80b923610b2d0336c69c4024cf7fce') in 0.027785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_201.asset
+  artifactKey: Guid(35ce0322993c97049a9718f49042d654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_201.asset using Guid(35ce0322993c97049a9718f49042d654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cd745d2bac4b102ec295487c1047ab') in 0.021991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_203.asset
+  artifactKey: Guid(10841deb0ac39e8498cf1e607988ec6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_203.asset using Guid(10841deb0ac39e8498cf1e607988ec6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec04f5f8fc1d0e85d688925622ebf1c') in 0.025635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_210.asset
+  artifactKey: Guid(9241d683f5c5b174791342dc14c69d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_210.asset using Guid(9241d683f5c5b174791342dc14c69d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4ffc2a2d0610e48b8c86318f653a08') in 0.024015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_209.asset
+  artifactKey: Guid(312519b8b72c96d46a7d66466fe2da1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_209.asset using Guid(312519b8b72c96d46a7d66466fe2da1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff2bfd098dcd0dab6cc79c6282b13b4') in 0.047978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_238.asset
+  artifactKey: Guid(f1e89b75bd892ac4682b0bd4d0f7118e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_238.asset using Guid(f1e89b75bd892ac4682b0bd4d0f7118e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335376ff68428246c896b60e331752ce') in 0.020309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_242.asset
+  artifactKey: Guid(8091dc1547c1b85408656684f4381626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_242.asset using Guid(8091dc1547c1b85408656684f4381626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0e1e96ec91779d3c392bf3bbc204b5') in 0.021616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_212.asset
+  artifactKey: Guid(4cc8c6de1b636cf4a9379e9d9364de35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_212.asset using Guid(4cc8c6de1b636cf4a9379e9d9364de35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7d65bcffd23c9d6ed1c058c5ea4b2e') in 0.019366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_194.asset
+  artifactKey: Guid(b02a1bd24ac756540b54c45e0423b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_194.asset using Guid(b02a1bd24ac756540b54c45e0423b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83790bf5822086e1671f7312e78b4d42') in 0.019659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_199.asset
+  artifactKey: Guid(4252f0fa0db98c846902e7eb65afab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_199.asset using Guid(4252f0fa0db98c846902e7eb65afab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e634f40837cc1d81a723db665f369326') in 0.023503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_195.asset
+  artifactKey: Guid(562a529316c11d44fa6dd9da68a30ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_195.asset using Guid(562a529316c11d44fa6dd9da68a30ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff3c6f834a135e2c04385dfa5058121') in 0.022743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_236.asset
+  artifactKey: Guid(699913f919369f149a633aa1b39d93c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_236.asset using Guid(699913f919369f149a633aa1b39d93c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad7acf150ebccffe4c59139304f034e') in 0.029027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_213.asset
+  artifactKey: Guid(862c7e5f3c63f844daca8dce59eefce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_213.asset using Guid(862c7e5f3c63f844daca8dce59eefce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948d60a538196e4ca0e5affe85af5183') in 0.020797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.323177 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_250.asset
+  artifactKey: Guid(455a60973d1ff554593aac00048e7771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_250.asset using Guid(455a60973d1ff554593aac00048e7771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8f4468d4be0618a5ba258165f8cf27') in 0.020765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_266.asset
+  artifactKey: Guid(1425104bbe5ff3840a4e8b07466fa15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_266.asset using Guid(1425104bbe5ff3840a4e8b07466fa15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465abc640c49da8219ff01010101924f') in 0.016865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_253.asset
+  artifactKey: Guid(df2d49c500b9e754b96f04442ad77b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_253.asset using Guid(df2d49c500b9e754b96f04442ad77b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8777a035dc9f47329f6abd6c2cfc96') in 0.026644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_302.asset
+  artifactKey: Guid(d3676ce3251cec84a9ea8300384074af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_302.asset using Guid(d3676ce3251cec84a9ea8300384074af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac37b0667d49607f7095101eeb11cf7') in 0.020154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_270.asset
+  artifactKey: Guid(ec40c3bb8084e364bb524edbf22ebad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_270.asset using Guid(ec40c3bb8084e364bb524edbf22ebad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137677d8a8f3ddb0409eb45fd0f75810') in 0.022875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_300.asset
+  artifactKey: Guid(dd798e5d2221778408c8f70b23ab14c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_300.asset using Guid(dd798e5d2221778408c8f70b23ab14c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b71b43710e48c3cd2d08e65cf2e98a') in 0.029451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_252.asset
+  artifactKey: Guid(a828228a51349f54fbe83453191810ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_252.asset using Guid(a828228a51349f54fbe83453191810ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3f5221c69f228f76586e3b6f123700') in 0.021402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_296.asset
+  artifactKey: Guid(a2dffa3a76e962444964e94ca4da8652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_296.asset using Guid(a2dffa3a76e962444964e94ca4da8652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53da72bc0df4810d423e36b2d36d7975') in 0.024459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_303.asset
+  artifactKey: Guid(f9f6c3237e934be4c8ec1034b587cdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_303.asset using Guid(f9f6c3237e934be4c8ec1034b587cdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7b5535faa70e89628380178ee2cb88') in 0.036029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_261.asset
+  artifactKey: Guid(5abbc261df5bf4049b48bec38dea7eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_261.asset using Guid(5abbc261df5bf4049b48bec38dea7eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c449b90796680f8f814462965c6fbe4') in 0.025739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_255.asset
+  artifactKey: Guid(700140d674d953e429a6bbc664505c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_255.asset using Guid(700140d674d953e429a6bbc664505c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b681f624bab1f802a0b661bbea47446') in 0.022328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_280.asset
+  artifactKey: Guid(585fc4d86794fac40b50014bc4c78150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_280.asset using Guid(585fc4d86794fac40b50014bc4c78150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508d8dee0cc2b97a5be8bb2076b1b898') in 0.022539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_257.asset
+  artifactKey: Guid(5cac7584edb38c04b8805f917adcbb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_257.asset using Guid(5cac7584edb38c04b8805f917adcbb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88242373f4576bcc39f3f3901dfaf4c') in 0.022562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_265.asset
+  artifactKey: Guid(9d2c7c14d37f70e4c89a429f900a25e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_265.asset using Guid(9d2c7c14d37f70e4c89a429f900a25e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb67f4be65fb21cc7ec1dcd1f03b76f6') in 0.020808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_260.asset
+  artifactKey: Guid(c7ad284c4f1b4b04fb266a2e00094ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_260.asset using Guid(c7ad284c4f1b4b04fb266a2e00094ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0591b052b1ffbc36dfe0ff57be9e43bc') in 0.024561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_278.asset
+  artifactKey: Guid(3be48c1d618fc904c9239f49d4d4d71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_278.asset using Guid(3be48c1d618fc904c9239f49d4d4d71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b949eea95f4b5e049697741a2c70b3f') in 0.021189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_258.asset
+  artifactKey: Guid(27fa77edc8bb62547a7f63b5b9527b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_258.asset using Guid(27fa77edc8bb62547a7f63b5b9527b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ad6e862a901b11d1a84be355f99bae') in 0.021584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_251.asset
+  artifactKey: Guid(3282463cc99ec44449f4d385e9295096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_251.asset using Guid(3282463cc99ec44449f4d385e9295096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81490652cea09c99d13be3667668d4a') in 0.024414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_288.asset
+  artifactKey: Guid(ab196c82d579d3d4f9f68309f4097af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_288.asset using Guid(ab196c82d579d3d4f9f68309f4097af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6917ca1a7ff6282668a28b0fd22551') in 0.016631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_301.asset
+  artifactKey: Guid(c25bc1e3aeced51419b74b5df3696d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_301.asset using Guid(c25bc1e3aeced51419b74b5df3696d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f0b65f3afb91e232103ad2917424bd') in 0.018415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.894603 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_307.asset
+  artifactKey: Guid(20d2c2da9ac8d914f8c43c96087cea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_307.asset using Guid(20d2c2da9ac8d914f8c43c96087cea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2704e8ca859b5f867f4c6ace8ca4b4c9') in 0.020422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_318.asset
+  artifactKey: Guid(606c8d5ba62f51d4191d1069868e931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_318.asset using Guid(606c8d5ba62f51d4191d1069868e931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5532670f7e51c7b68f1fd4e71295ce35') in 0.021321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_337.asset
+  artifactKey: Guid(14e84011c5e600243b22ba776a791c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_337.asset using Guid(14e84011c5e600243b22ba776a791c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc10888f5cc4d49424c9ff5cec176b30') in 0.020852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_329.asset
+  artifactKey: Guid(1c63310923f79ca4eabfe1001d3f42dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_329.asset using Guid(1c63310923f79ca4eabfe1001d3f42dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb223b543fdf50e3ae231d4ca0429321') in 0.049546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_361.asset
+  artifactKey: Guid(177cfd04dcb246549b22b933e87ba19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_361.asset using Guid(177cfd04dcb246549b22b933e87ba19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80890acccfed65668e73d77534547ba5') in 0.022567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_310.asset
+  artifactKey: Guid(1a0658a7d58e4e34d96b4be1c44fa97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_310.asset using Guid(1a0658a7d58e4e34d96b4be1c44fa97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9e6adf86f1f92fc89fc24301b52fab') in 0.026055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_327.asset
+  artifactKey: Guid(8928c415e91a9b3469550b8f355268e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_327.asset using Guid(8928c415e91a9b3469550b8f355268e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a121b8c046f3d51a0f2515a50444d28d') in 0.021391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_351.asset
+  artifactKey: Guid(ac12cbadf8ff6d4448c45125af510f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_351.asset using Guid(ac12cbadf8ff6d4448c45125af510f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499b218e58d584be283919f85096bfd9') in 0.024792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_335.asset
+  artifactKey: Guid(c8c6015cf64cd9148a2b21aad53c8808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_335.asset using Guid(c8c6015cf64cd9148a2b21aad53c8808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6066b3b633da3aedbd815a9224272bf1') in 0.027573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_356.asset
+  artifactKey: Guid(e2b9948160b33aa4fa6251794b360c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_356.asset using Guid(e2b9948160b33aa4fa6251794b360c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2344a617218efce5ae5b058ac9e69f46') in 0.020938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_355.asset
+  artifactKey: Guid(1ff907b48b8a92540abf82ce97aef8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_355.asset using Guid(1ff907b48b8a92540abf82ce97aef8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ba4717d4c8472345c89886f2eaafdd') in 0.024516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_309.asset
+  artifactKey: Guid(73e6ef4dc68ec9544b545319771d47d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_309.asset using Guid(73e6ef4dc68ec9544b545319771d47d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46625087eec118f6440b5e803cf61e56') in 0.024581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_317.asset
+  artifactKey: Guid(26c129f43028d26448819890700550a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_317.asset using Guid(26c129f43028d26448819890700550a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51145520e41cc66d5481c40599f7ab25') in 0.025257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_352.asset
+  artifactKey: Guid(fbcdb64572e18e54990b8d55059423e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_352.asset using Guid(fbcdb64572e18e54990b8d55059423e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fe97788311cf0d15fc6c3bdbf7bdfa') in 0.023025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_331.asset
+  artifactKey: Guid(e517cf8c2a8068347b380eecca661689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_331.asset using Guid(e517cf8c2a8068347b380eecca661689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16def5d3a26ebc2925c39f38b77acc02') in 0.024496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_326.asset
+  artifactKey: Guid(12718c425de3ccf47a2dde756582535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_326.asset using Guid(12718c425de3ccf47a2dde756582535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160f3083d0f75b92a9be2fa22dfac37a') in 0.027427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_330.asset
+  artifactKey: Guid(e359d251dd33b7642a7c9b68fb375bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_330.asset using Guid(e359d251dd33b7642a7c9b68fb375bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf9ea3d58e53ab8a65a549dc6a0cad3') in 0.034819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_360.asset
+  artifactKey: Guid(3e7cea770a12cf941b104c623009edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_360.asset using Guid(3e7cea770a12cf941b104c623009edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53782bfa601bd72e47dc292155538e06') in 0.022609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_316.asset
+  artifactKey: Guid(4c48328cf7bacb04d8ec23f042c815c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_316.asset using Guid(4c48328cf7bacb04d8ec23f042c815c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcd24231f0c6233b2d9436a0806eaed') in 0.018775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.701215 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_364.asset
+  artifactKey: Guid(fab93cb372f0bc446b0c40134b863c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_364.asset using Guid(fab93cb372f0bc446b0c40134b863c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ec8d9bffa80af864353ffdad1d1f90') in 0.020960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_378.asset
+  artifactKey: Guid(7ba7d7a7c2deb004d9383df42a537b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_378.asset using Guid(7ba7d7a7c2deb004d9383df42a537b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e255ffc58bc8db93894a5a0a116bc519') in 0.027030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_388.asset
+  artifactKey: Guid(484312c37abfc394fa3ec164971d3d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_388.asset using Guid(484312c37abfc394fa3ec164971d3d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ece5a993ec00dc0c7e5f73c04044dfa') in 0.017101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_414.asset
+  artifactKey: Guid(43cb208fdcf727946a845aa931daa284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_414.asset using Guid(43cb208fdcf727946a845aa931daa284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36aad1e7f6c9f5bc26edbe3e0928b917') in 0.017081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_382.asset
+  artifactKey: Guid(4ee11644345f1394cb63de73b0d1199c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_382.asset using Guid(4ee11644345f1394cb63de73b0d1199c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137d73e008c3f26f9be99a626b5596bf') in 0.024124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_412.asset
+  artifactKey: Guid(9407b1c843fa55342b629f86a29be25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_412.asset using Guid(9407b1c843fa55342b629f86a29be25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7177ee48d908a05bd1bee2aa8aeef339') in 0.023738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_387.asset
+  artifactKey: Guid(bad4046d132a0fd45886e9774f8abf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_387.asset using Guid(bad4046d132a0fd45886e9774f8abf0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af06544585b2fe1b2a2de47ed456bc44') in 0.022302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_371.asset
+  artifactKey: Guid(61e64ba9a19d8cf4fad7850e92fbcc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_371.asset using Guid(61e64ba9a19d8cf4fad7850e92fbcc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160cafda4a738af55506d580a7cf4457') in 0.022873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_399.asset
+  artifactKey: Guid(c6d35d896f801cf49ab56b6a38de46ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_399.asset using Guid(c6d35d896f801cf49ab56b6a38de46ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa4b4c5ae8efafe179729403df9578a') in 0.020339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_386.asset
+  artifactKey: Guid(72188b387e57c9a4ea4d763e4db16a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_386.asset using Guid(72188b387e57c9a4ea4d763e4db16a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c32fef1f79123e658aa8d479b92c4c') in 0.027081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_365.asset
+  artifactKey: Guid(51e271048b9209645b06838ac9883f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_365.asset using Guid(51e271048b9209645b06838ac9883f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc22606e3a878a8f468a6ab3aca0428') in 0.021287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_389.asset
+  artifactKey: Guid(697f077b9bdba1547bd1456f23c58428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_389.asset using Guid(697f077b9bdba1547bd1456f23c58428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b6d2d4988f46f45e7d5659100d1a7e') in 0.020525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_407.asset
+  artifactKey: Guid(f76290ca6528e7a4b972134c9a3cc0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_407.asset using Guid(f76290ca6528e7a4b972134c9a3cc0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8ad15f9ffcc857cd3f0737db4bbb5c') in 0.024554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_395.asset
+  artifactKey: Guid(5d048c0d55fb02e4589e75498f87d364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_395.asset using Guid(5d048c0d55fb02e4589e75498f87d364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2bad0e89a3e13ce5f07b461571fdda') in 0.021643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_408.asset
+  artifactKey: Guid(b3ac8fab6387b5b4eb12680a628c3aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_408.asset using Guid(b3ac8fab6387b5b4eb12680a628c3aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbde71d21d3930893f8854a5bda19aa6') in 0.019854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_409.asset
+  artifactKey: Guid(c28e2e541e88c7746b95a40bc727c5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_409.asset using Guid(c28e2e541e88c7746b95a40bc727c5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cd799c6b687cb84bb7d856386344a2') in 0.019259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_367.asset
+  artifactKey: Guid(b9adfe7800e83bb43ba718d1ecb021dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_367.asset using Guid(b9adfe7800e83bb43ba718d1ecb021dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773efe8a66279c7650be783ddcdf2dbc') in 0.019443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_369.asset
+  artifactKey: Guid(d649c781a1f90ed4fb2f38aaf1176ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_369.asset using Guid(d649c781a1f90ed4fb2f38aaf1176ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be691022f02a8875633ab10aabc39403') in 0.024113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_410.asset
+  artifactKey: Guid(40a2d7dff5e0ce940bd34fcfac556586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_410.asset using Guid(40a2d7dff5e0ce940bd34fcfac556586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb5570984421243d76388a406efbcf5') in 0.021973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_377.asset
+  artifactKey: Guid(9d82dbb6ce03f1e49823f8c23ec72713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_377.asset using Guid(9d82dbb6ce03f1e49823f8c23ec72713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38398e37507053192cb8d7d6bc9503ea') in 0.023733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.227749 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_421.asset
+  artifactKey: Guid(bceeb5b5c281f504b9c6302398e1558a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_421.asset using Guid(bceeb5b5c281f504b9c6302398e1558a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474a4baeaf19f57dcd2ed55c0417de31') in 0.019069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_430.asset
+  artifactKey: Guid(0e8dc65f609f98a42bf59a8f21741a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_430.asset using Guid(0e8dc65f609f98a42bf59a8f21741a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a953eb4c433b563195d8f9b75fed1059') in 0.023640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_444.asset
+  artifactKey: Guid(af6fc612c2a8a60408bab7fa1a15c431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_444.asset using Guid(af6fc612c2a8a60408bab7fa1a15c431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ba40bb31bc85deda3493a90589343c') in 0.020703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_463.asset
+  artifactKey: Guid(1bb895cc64719284db81601bd66655b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_463.asset using Guid(1bb895cc64719284db81601bd66655b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ae542cdf4637ed666e9d2b5c10c0cb') in 0.020588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_466.asset
+  artifactKey: Guid(ae97ab051a6c2f541aff81cf8abf6f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_466.asset using Guid(ae97ab051a6c2f541aff81cf8abf6f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47856dddcd133d5b3981364756c9926f') in 0.028618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_454.asset
+  artifactKey: Guid(d6e1842006c09094691ddcaabc597e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_454.asset using Guid(d6e1842006c09094691ddcaabc597e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64777a1929b8c8969d4707d4e07f716') in 0.025407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_471.asset
+  artifactKey: Guid(679f0d989266fb94ab586556f2efcd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_471.asset using Guid(679f0d989266fb94ab586556f2efcd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a74723eae13a07cef81df6392959b34') in 0.026141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_465.asset
+  artifactKey: Guid(8a48292d1622a5449a10cc70938ea284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_465.asset using Guid(8a48292d1622a5449a10cc70938ea284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a17b1f4bdd7ed09afa785ffb320284') in 0.021627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_427.asset
+  artifactKey: Guid(3817a0f82d9d7eb4cbf1f7ba1a031646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_427.asset using Guid(3817a0f82d9d7eb4cbf1f7ba1a031646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c0b65b47c17b66b2eaee13d7a8e4d8') in 0.018757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_472.asset
+  artifactKey: Guid(28470aa1ff27e4b4d9a5fdef4f479612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_472.asset using Guid(28470aa1ff27e4b4d9a5fdef4f479612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6d09a00bab51b4f9e06708571af559') in 0.023026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_455.asset
+  artifactKey: Guid(674629fd94bea2947b1fb3000fe30a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_455.asset using Guid(674629fd94bea2947b1fb3000fe30a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9fa918955f070095d4aa5aa75eb9c9') in 0.022281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_470.asset
+  artifactKey: Guid(ca543de802de23341a9c034915322197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_470.asset using Guid(ca543de802de23341a9c034915322197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e02bc558a4e11ed8907f104b3908e99') in 0.019056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_451.asset
+  artifactKey: Guid(e912b95e9bde1da448be67f7cbfcc303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_451.asset using Guid(e912b95e9bde1da448be67f7cbfcc303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd33fb110b908f00db487e410b1966ea') in 0.026604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_425.asset
+  artifactKey: Guid(1fa970d4573dcde418e89ff8005a4fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_425.asset using Guid(1fa970d4573dcde418e89ff8005a4fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c503cc42ca47a0a6877b599f4d6741') in 0.022066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_449.asset
+  artifactKey: Guid(b9ab0e66f4dccf147a13722bd2d71aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_449.asset using Guid(b9ab0e66f4dccf147a13722bd2d71aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665c2596e464111736185136082464b3') in 0.023092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_434.asset
+  artifactKey: Guid(760a5455a504f844dad8557774d4b6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_434.asset using Guid(760a5455a504f844dad8557774d4b6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7623b38ac02c9c111dfa42728d235f6a') in 0.025154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_423.asset
+  artifactKey: Guid(8bc1473b2fbef2c4399b18235f5ab573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_423.asset using Guid(8bc1473b2fbef2c4399b18235f5ab573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8382d3a82df0f7a5764911c3f7c86e8a') in 0.021799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_429.asset
+  artifactKey: Guid(83b7be44bbedbf2439884091b3f74cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_429.asset using Guid(83b7be44bbedbf2439884091b3f74cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b20d09ebcd1ee6c10023cd89908681') in 0.023069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_435.asset
+  artifactKey: Guid(5d4fe2f6eb83eac40bfad8a43b3d10bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_435.asset using Guid(5d4fe2f6eb83eac40bfad8a43b3d10bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16060f9b855078e3a9c582516b8da893') in 0.021278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_464.asset
+  artifactKey: Guid(f050cde463ba0a94fb28fc09dea0ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_464.asset using Guid(f050cde463ba0a94fb28fc09dea0ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2699fecba178d9bc3fdebfca8a73f9c8') in 0.020644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.539492 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_478.asset
+  artifactKey: Guid(40a41ed26ce09c740956a5627516348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_478.asset using Guid(40a41ed26ce09c740956a5627516348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331140c986da4f1775cca80dcd545979') in 0.024497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_495.asset
+  artifactKey: Guid(1d2654fcc5cebe746b1f99680dba0dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_495.asset using Guid(1d2654fcc5cebe746b1f99680dba0dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ac739f0b71c3579584971ff0746f91') in 0.023929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_481.asset
+  artifactKey: Guid(40614f62c03587743a5bc021e9b67f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_481.asset using Guid(40614f62c03587743a5bc021e9b67f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432f69d237565d66598293888438656f') in 0.020008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_527.asset
+  artifactKey: Guid(f6fbde6febfb10a4481179481e808025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_527.asset using Guid(f6fbde6febfb10a4481179481e808025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b89fb01d89abdbfd86a01ffa63ca16') in 0.023061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_509.asset
+  artifactKey: Guid(6ef8bf286636b9242a3af997775a65b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_509.asset using Guid(6ef8bf286636b9242a3af997775a65b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf98f5882b0c228a681d75e8458922d') in 0.025490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_490.asset
+  artifactKey: Guid(7d70bd4033d281e43a192d239cbf5138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_490.asset using Guid(7d70bd4033d281e43a192d239cbf5138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab7cba4e5e0f66b1ac8136d4545ab9e') in 0.026573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_486.asset
+  artifactKey: Guid(9dfd20f06377897488fd99335a8f953b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_486.asset using Guid(9dfd20f06377897488fd99335a8f953b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e60fc341c77eb5232fc6796c51fd8f') in 0.022843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_503.asset
+  artifactKey: Guid(60c0117269848cf40b025ce5b5e39255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_503.asset using Guid(60c0117269848cf40b025ce5b5e39255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f128c58242586e0f24f30502607623') in 0.022088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_523.asset
+  artifactKey: Guid(f42c947aa7f4bab489e59bf0eed12aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_523.asset using Guid(f42c947aa7f4bab489e59bf0eed12aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b38db7cab91112b5825fabbe587d4e1') in 0.033753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_493.asset
+  artifactKey: Guid(a14d43ca296facb42af196e796552911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_493.asset using Guid(a14d43ca296facb42af196e796552911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c857ef73a3fe10d8187ccc39bdbffff') in 0.021814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_498.asset
+  artifactKey: Guid(308b56359961e2a4b8c5263bfe4470ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_498.asset using Guid(308b56359961e2a4b8c5263bfe4470ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f1aecd30f5a1ddc19117c5ce764f63') in 0.016704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_494.asset
+  artifactKey: Guid(47634c5f0b48f0e4ea2bb9ddd9916286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_494.asset using Guid(47634c5f0b48f0e4ea2bb9ddd9916286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7278b4dff72b65a801aaff2048a142') in 0.020379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_519.asset
+  artifactKey: Guid(a64b1afdde68c7f4c9528518c594a6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_519.asset using Guid(a64b1afdde68c7f4c9528518c594a6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c47f31a11ea383cc136be30dc633eb5') in 0.027032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_504.asset
+  artifactKey: Guid(a0712d606574efe4d8e916a4db3d50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_504.asset using Guid(a0712d606574efe4d8e916a4db3d50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262ec052eb175247eda2a72cfafe24b6') in 0.020496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_483.asset
+  artifactKey: Guid(cb61cddcf324270459d2be8f58de03a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_483.asset using Guid(cb61cddcf324270459d2be8f58de03a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110e06f2da7b10c2c3a1afb5b043cfff') in 0.021381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_480.asset
+  artifactKey: Guid(679c4316c7124734493ebacd26ac7159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_480.asset using Guid(679c4316c7124734493ebacd26ac7159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dd7413b889f16ce88359157aae2342') in 0.019002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_508.asset
+  artifactKey: Guid(b0a4c462168fae644bcaeeabe073496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_508.asset using Guid(b0a4c462168fae644bcaeeabe073496c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe2aa4457d123d0eecf9bab49ee96df') in 0.019123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_502.asset
+  artifactKey: Guid(09639bb3431b8fa45b803c93dc41eaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_502.asset using Guid(09639bb3431b8fa45b803c93dc41eaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5406db1f2a1b82faa5c9e0a1a2ff8a') in 0.020996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_511.asset
+  artifactKey: Guid(2aaefc9100db17c4ba4102307278588b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_511.asset using Guid(2aaefc9100db17c4ba4102307278588b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ded16b93e39362a522be7d01c8a93c5') in 0.022538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.453601 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_535.asset
+  artifactKey: Guid(d908c28f17b4f3f45a63013a9cd3e622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_535.asset using Guid(d908c28f17b4f3f45a63013a9cd3e622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b79fd4e554227049e73f9fd62ef486') in 0.020899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_561.asset
+  artifactKey: Guid(bbc86d0ecfa3c004ab8d31ab3473aa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_561.asset using Guid(bbc86d0ecfa3c004ab8d31ab3473aa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fe80179a8061a34b849b931b300a63') in 0.022262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_564.asset
+  artifactKey: Guid(59040519e28b4a2429436f35bb91117e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_564.asset using Guid(59040519e28b4a2429436f35bb91117e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0393e9caa180f3b56824e152fbdaf384') in 0.021098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_590.asset
+  artifactKey: Guid(1206ec088af64524bb7842df065824b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_590.asset using Guid(1206ec088af64524bb7842df065824b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180fbf305945badcd00a349bc6a01a24') in 0.022010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_601.asset
+  artifactKey: Guid(a6c4e3853f457a24390892b859d86d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_601.asset using Guid(a6c4e3853f457a24390892b859d86d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78612bdcd648617a5a351826381b47ac') in 0.020779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_537.asset
+  artifactKey: Guid(77ab77d9926faba4084b486989e3c6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_537.asset using Guid(77ab77d9926faba4084b486989e3c6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed08a895e9ae6aaffe74d0a7981908f2') in 0.028673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_546.asset
+  artifactKey: Guid(1efbf6a8cd77a314ca2ba4a7bb104c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_546.asset using Guid(1efbf6a8cd77a314ca2ba4a7bb104c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1562cdae893bef31359da3bd4459b1') in 0.025065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_553.asset
+  artifactKey: Guid(8b14c4bd76c386744868c7e3140bb1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_553.asset using Guid(8b14c4bd76c386744868c7e3140bb1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9866d55b27125c79d718c771f65bd7') in 0.022297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_567.asset
+  artifactKey: Guid(1562c9bf7e4c252479d944e74a5d0dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_567.asset using Guid(1562c9bf7e4c252479d944e74a5d0dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf834a50346c890bf94126f77dcdde6') in 0.024422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_563.asset
+  artifactKey: Guid(5bdb78763c21f1e4c92211aac5b9b691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_563.asset using Guid(5bdb78763c21f1e4c92211aac5b9b691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7a6478cf3a92f09286e5290e2691b1') in 0.032938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_605.asset
+  artifactKey: Guid(9d40cbc0de9c2e249b0a625a460f9378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_605.asset using Guid(9d40cbc0de9c2e249b0a625a460f9378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c32d0b32f8a082c4a4b9f2a7a6fcb2') in 0.024705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_583.asset
+  artifactKey: Guid(951d4b8bcbc5eb64f8de311fdae88f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_583.asset using Guid(951d4b8bcbc5eb64f8de311fdae88f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232e21076a80924a927059c1fdbbc347') in 0.020413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_544.asset
+  artifactKey: Guid(f550bc6bb7229ba49a327520ece4981c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_544.asset using Guid(f550bc6bb7229ba49a327520ece4981c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b1b3a417850939b3744ce54623d107') in 0.022247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_581.asset
+  artifactKey: Guid(9c6d49f00f5bcc042a7cb9813548af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_581.asset using Guid(9c6d49f00f5bcc042a7cb9813548af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab659aa669bd8fcae72e639e76ad82ec') in 0.021176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_536.asset
+  artifactKey: Guid(e65d34aa06749d64795df2d94ffad880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_536.asset using Guid(e65d34aa06749d64795df2d94ffad880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519e0fc5ca1c6389c44d26ee4defcef7') in 0.021891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_582.asset
+  artifactKey: Guid(3f41a19ddcafe824fa1417868c8bae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_582.asset using Guid(3f41a19ddcafe824fa1417868c8bae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de29fa0a6f8bb4b7ab60c310f2c94e7') in 0.022864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_587.asset
+  artifactKey: Guid(9fcc23a97e736034c9d2d26fcb3a7d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_587.asset using Guid(9fcc23a97e736034c9d2d26fcb3a7d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8726c70e87affe391dcc2d948b463b') in 0.024341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_540.asset
+  artifactKey: Guid(b3a06b18c31201b48b335845e4f54d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_540.asset using Guid(b3a06b18c31201b48b335845e4f54d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2238e1547f49fe00eef79d000fec8ce6') in 0.022419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_580.asset
+  artifactKey: Guid(888247fbd57a2a04fb589c665dd08464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_580.asset using Guid(888247fbd57a2a04fb589c665dd08464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efaed2b905d7d509e5c3fd35ad51844') in 0.019619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_566.asset
+  artifactKey: Guid(5be11b46186a82f40b9a3cd8d179233c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_566.asset using Guid(5be11b46186a82f40b9a3cd8d179233c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7272e32c00ac7f1a3828c2f0f5fedbbd') in 0.020766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_585.asset
+  artifactKey: Guid(841c28b337bd3e4479366826d2c2cd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_585.asset using Guid(841c28b337bd3e4479366826d2c2cd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3594c71662514d749754f3f0a1826ed') in 0.051771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_589.asset
+  artifactKey: Guid(6d587c6e0f4bd1f4b95e92a83d640bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_589.asset using Guid(6d587c6e0f4bd1f4b95e92a83d640bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305db6fef3f3783e8ae8015576486ee6') in 0.027950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_603.asset
+  artifactKey: Guid(2908760e80bb9204d9e8e34deb10c9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_603.asset using Guid(2908760e80bb9204d9e8e34deb10c9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb9850bfccd5918fe14fbff844540ff') in 0.837162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_622.asset
+  artifactKey: Guid(d6b980834226f6d489ac93bda07e41c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_622.asset using Guid(d6b980834226f6d489ac93bda07e41c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480e10511e93fbc87111883eebbff864') in 0.101172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_643.asset
+  artifactKey: Guid(c9a52273e24f79d4eb5b6b0dc1aa941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_643.asset using Guid(c9a52273e24f79d4eb5b6b0dc1aa941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00691b2692fe16c20662160674e1b96a') in 0.322882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_641.asset
+  artifactKey: Guid(32011628a6bb2794681a0bb9ed57e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_641.asset using Guid(32011628a6bb2794681a0bb9ed57e7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f55ad230cd07928241f7d627251fabd') in 0.018725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_610.asset
+  artifactKey: Guid(6c4559c60dd11164191eb96adcc89a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_610.asset using Guid(6c4559c60dd11164191eb96adcc89a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714902cbe35ea3eb0eea15f9f39a2319') in 0.022730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_617.asset
+  artifactKey: Guid(16742d3de2873e34fbcd270a74d9a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_617.asset using Guid(16742d3de2873e34fbcd270a74d9a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bffff1cad0ef1cf0a6d8c3f256a983') in 0.016889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_618.asset
+  artifactKey: Guid(9821dccd5feaf444abb145dcec367651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_618.asset using Guid(9821dccd5feaf444abb145dcec367651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6789eb5a952b2130a91ba754244c51') in 0.021156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_633.asset
+  artifactKey: Guid(7885e6516d3251d43a439bcbccc9ad8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_633.asset using Guid(7885e6516d3251d43a439bcbccc9ad8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cfa6dd9b6fab9aad40ab486dba16bd') in 0.024070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_627.asset
+  artifactKey: Guid(8cfdbd2872269fd488ae4bdda293f889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_627.asset using Guid(8cfdbd2872269fd488ae4bdda293f889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d30129d3e1de82c674bff9cd61c877') in 0.031723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_621.asset
+  artifactKey: Guid(03472ab0d3569f640a6b48e353f61e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_621.asset using Guid(03472ab0d3569f640a6b48e353f61e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba76735c13ce221759f5d0a279f8b78a') in 0.020348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_640.asset
+  artifactKey: Guid(e3c278c696861ee41a456ae2c74d2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_640.asset using Guid(e3c278c696861ee41a456ae2c74d2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6136b1da33ae511a2f590a834549f102') in 0.025987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_619.asset
+  artifactKey: Guid(50715be3408c0a442867695d6c294d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_619.asset using Guid(50715be3408c0a442867695d6c294d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328d5c69c695b105adedba7d7ede7341') in 0.022912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_625.asset
+  artifactKey: Guid(5130b6871d9cfc54196e5cc50fe1894c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_625.asset using Guid(5130b6871d9cfc54196e5cc50fe1894c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2fbbda226c86157e1e59b5d4f9cdac') in 0.037746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_626.asset
+  artifactKey: Guid(9e0b9b467c76d7d48b68610c87a3dc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_626.asset using Guid(9e0b9b467c76d7d48b68610c87a3dc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455de6d39fdb723535507dafe0aacf3f') in 0.032005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_639.asset
+  artifactKey: Guid(3f56f150a3c58b24dbc20090b29fd183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_639.asset using Guid(3f56f150a3c58b24dbc20090b29fd183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beae0d207b192a1bec940af6ad7d53c9') in 0.027289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_608.asset
+  artifactKey: Guid(76df00fa70d6f494fa16f4b11510931e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_608.asset using Guid(76df00fa70d6f494fa16f4b11510931e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54e1fe4f4adf9999f1966f77da40db3') in 0.021323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.578356 seconds.
+  path: Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_209 1.asset
+  artifactKey: Guid(341bd1572c46d5a4a926307c5b64c17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/Interior - Rogue Adventure/Tiles/sRA_Interior_209 1.asset using Guid(341bd1572c46d5a4a926307c5b64c17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3b7e2c48d0ed448a9ab731c22e7c7b') in 0.021486 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.543 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1543ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1201ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+				TypeCache.Initialize (346ms)
+					TypeCache.ScanAssembly (338ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (318ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2504 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (32.5 KB). Loaded Objects now: 2989.
+Memory consumption went from 428.7 MB to 428.7 MB.
+Total: 4.763000 ms (FindLiveObjects: 0.284200 ms CreateObjectMapping: 0.168300 ms MarkObjects: 4.270900 ms  DeleteObjects: 0.037800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

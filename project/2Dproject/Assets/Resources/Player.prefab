@@ -129,7 +129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3546132296811554356
@@ -202,7 +202,7 @@ RectTransform:
   m_GameObject: {fileID: 3546132296833448998}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3546132297105211957}
@@ -927,7 +927,7 @@ Transform:
   m_Children:
   - {fileID: 3546132297105211957}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3546132298039691788
 SpriteRenderer:
@@ -1040,6 +1040,8 @@ MonoBehaviour:
   btn: {fileID: 3546132296833448999}
   E: {fileID: 21300000, guid: f7c080858e9ac1041b326ffc33148c0c, type: 3}
   isCantMove: 0
+  broom: {fileID: 0}
+  mop: {fileID: 0}
 --- !u!50 &3546132298039691785
 Rigidbody2D:
   serializedVersion: 4

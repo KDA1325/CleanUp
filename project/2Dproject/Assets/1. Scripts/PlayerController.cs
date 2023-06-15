@@ -27,9 +27,9 @@ public class PlayerController : MonoBehaviour
     bool isMoving = false;          //이동 중인지 여부
 
     //데미지 처리
-    //public static int hp = 3;           //플레이어 HP
+    public static int hp = 3;           //플레이어 HP
     public static string gameState;     //게임 상태
-    //bool inDamage = false;              //데미지 받는 중인지 여부
+    bool inDamage = false;              //데미지 받는 중인지 여부
 
     public Settings settings;
     public Button btn;
@@ -38,11 +38,22 @@ public class PlayerController : MonoBehaviour
 
     Animator anim;
     GameObject coll;
+    //GameObject itemColl;
 
     public bool isCantMove;
 
     //float timer;
     bool isCool, isAnim;
+
+    ItemKeeper item;
+    public int hasBroomStick = 0;
+    public int hasMop = 0;
+    public Image Broom, Mop;
+    public Color grey, white;
+
+    
+    //public GameObject broom;
+    //public GameObject mop;
 
     // Use this for initialization
     void Start()
@@ -57,10 +68,7 @@ public class PlayerController : MonoBehaviour
         Camera.main.transform.localPosition = new Vector3(0, 0, -10); // 유니티 내 메인 카메라의 초기 z값 = -10
 
 
-            btn.GetComponent<Image>().sprite = E;
-
-            //text_cool.text = "";
-
+        btn.GetComponent<Image>().sprite = E;
 
         //Rigidbody2D 가져오기
         rbody = GetComponent<Rigidbody2D>();
@@ -69,7 +77,7 @@ public class PlayerController : MonoBehaviour
         //게임 상태를 플레이 중으로 변경
         gameState = "playing";
         //HP 갱신
-        //hp = PlayerPrefs.GetInt("PlayerHP");
+        hp = PlayerPrefs.GetInt("PlayerHP");
 
         btn.interactable = false;
     }
@@ -118,6 +126,23 @@ public class PlayerController : MonoBehaviour
             oldAnimation = nowAnimation;
             GetComponent<Animator>().Play(nowAnimation);
         }
+
+        if(hasBroomStick == 0)
+        {
+            Broom.GetComponent<Image>().color = grey;
+        }
+        else
+        {
+            Broom.GetComponent<Image>().color = white;
+        }
+        if (hasMop == 0)
+        {
+            Mop.GetComponent<Image>().color = grey;
+        }
+        else
+        {
+            Mop.GetComponent<Image>().color = white;
+        }
     }
     void FixedUpdate()
     {
@@ -126,23 +151,23 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
-        //if (inDamage)
-        //{
-        //    //데미지 받는 중엔 점멸 시키기
-        //    float val = Mathf.Sin(Time.time * 50);
-        //    Debug.Log(val);
-        //    if (val > 0)
-        //    {
-        //        //스프라이트 표시
-        //        gameObject.GetComponent<SpriteRenderer>().enabled = true;
-        //    }
-        //    else
-        //    {
-        //        //스프라이트 비표시
-        //        gameObject.GetComponent<SpriteRenderer>().enabled = false;
-        //    }
-        //    return; //데미지 받는 중엔 조작을 할수 없게하기
-        //}
+        if (inDamage)
+        {
+            //데미지 받는 중엔 점멸 시키기
+            float val = Mathf.Sin(Time.time * 50);
+            Debug.Log(val);
+            if (val > 0)
+            {
+                //스프라이트 표시
+                gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            }
+            else
+            {
+                //스프라이트 비표시
+                gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            }
+            return; //데미지 받는 중엔 조작을 할수 없게하기
+        }
         //이동 속도 변경하기
         rbody.velocity = new Vector2(axisH, axisV) * speed;
     }
@@ -193,41 +218,41 @@ public class PlayerController : MonoBehaviour
     }
 
     //데미지
-    //void GetDamage(GameObject enemy)
-    //{
-    //    if (gameState == "playing")
-    //    {
-    //        hp--;   //HP감소
-    //        //HP 갱신
-    //        PlayerPrefs.SetInt("PlayerHP", hp);
-    //        if (hp > 0)
-    //        {
-    //            //이동 중지
-    //            rbody.velocity = new Vector2(0, 0);
-    //            //적 캐릭터의 반대 방향으로 히트백 
-    //            Vector3 toPos = (transform.position - enemy.transform.position).normalized;
-    //            rbody.AddForce(new Vector2(toPos.x * 4,
-    //                                       toPos.y * 4),
-    //                                       ForceMode2D.Impulse);
-    //            //데미지 받는 중으로 설정
-    //            inDamage = true;
-    //            Invoke("DamageEnd", 0.25f);
-    //        }
-    //        else
-    //        {
-    //            //게임 오버
-    //            GameOver();
-    //        }
-    //    }
-    //}
-    ////데미지 받기 끝
-    //void DamageEnd()
-    //{
-    //    //데미지 받는 중이 아님으로 설정
-    //    inDamage = false;
-    //    //스프라이트 되돌리기
-    //    gameObject.GetComponent<SpriteRenderer>().enabled = true;
-    //}
+    void GetDamage(GameObject enemy)
+    {
+        if (gameState == "playing")
+        {
+            hp--;   //HP감소
+            //HP 갱신
+            PlayerPrefs.SetInt("PlayerHP", hp);
+            if (hp > 0)
+            {
+                //이동 중지
+                rbody.velocity = new Vector2(0, 0);
+                //적 캐릭터의 반대 방향으로 히트백 
+                Vector3 toPos = (transform.position - enemy.transform.position).normalized;
+                rbody.AddForce(new Vector2(toPos.x * 4,
+                                           toPos.y * 4),
+                                           ForceMode2D.Impulse);
+                //데미지 받는 중으로 설정
+                inDamage = true;
+                Invoke("DamageEnd", 0.25f);
+            }
+            else
+            {
+                //게임 오버
+                GameOver();
+            }
+        }
+    }
+    //데미지 받기 끝
+    void DamageEnd()
+    {
+        //데미지 받는 중이 아님으로 설정
+        inDamage = false;
+        //스프라이트 되돌리기
+        gameObject.GetComponent<SpriteRenderer>().enabled = true;
+    }
 
     //게임 오버
     void GameOver()
@@ -252,10 +277,20 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) // 닿은 물체를 가져옴
     {
-        if (collision.tag == "Mission") // 태그가 미션이고 isMission이 true라면
+        if (collision.tag == "Mission") // 태그가 미션이고
         {
             coll = collision.gameObject;
 
+            btn.interactable = true;
+        }
+        else if(collision.tag == "Item" && collision.gameObject.name == "broom")
+        {
+            coll = collision.gameObject;
+            btn.interactable = true;
+        }
+        else if(collision.tag == "Item" && collision.gameObject.name == "mop")
+        {
+            coll = collision.gameObject;
             btn.interactable = true;
         }
     }
@@ -267,14 +302,39 @@ public class PlayerController : MonoBehaviour
 
             btn.interactable = false;
         }
+        else if (collision.tag == "Item")
+        {
+            coll = null;
+            btn.interactable = false;
+        }
     }
 
     // 버튼 누르면 호출
     public void ClickButton()
     {
-
-        // MissionStart를 호출
-        coll.SendMessage("MissionStart"); // MissionStart 함수가 있는 스크립트를 가져오지 않아도 MissionStart를 호출한다는 메세지를 보내 호출 가능
+        if(coll.tag == "Mission")
+        {
+            // MissionStart를 호출
+            coll.SendMessage("MissionStart"); // MissionStart 함수가 있는 스크립트를 가져오지 않아도 MissionStart를 호출한다는 메세지를 보내 호출 가능
+        }
+        else if(coll.tag == "Mission" && coll.name == "Mission2")
+        {
+            coll.SendMessage("MissionStart");
+            // coll.SetActive(false);
+            //Destroy(coll.gameObject);
+        }
+        else if (coll.tag == "Item" && coll.name == "broom")
+        {
+            hasBroomStick = 1;
+            Debug.Log(hasBroomStick);
+            Destroy(coll.gameObject);
+        }
+        else if (coll.tag == "Item" && coll.name == "mop")
+        {
+            hasMop = 1;
+            Debug.Log(hasMop);
+            Destroy(coll.gameObject);
+        }
 
         isCantMove = true;
         btn.interactable = false;

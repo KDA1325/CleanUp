@@ -81,5 +81,6 @@ public class Mission1 : MonoBehaviour
         ClickCancle(); // 미션 창 내려감
         missionController.MissionSuccess(GetComponent<CircleCollider2D>());
         SceneManager.LoadScene("House");
+
     }
 }
